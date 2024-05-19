@@ -8,30 +8,35 @@ The OpenScan Classic is a compact desktop 3D scanner capable of scanning objects
 
 ### Bill of material (BOM)
 
-* x M3x8 Screws
-* x M3x12 Screws
-* x M3 Nuts
-* 1x Pi Shield
-* 1x Nema 17 (>40Ncm)
-* 1x Nema 17 (>13Ncm)
-* 1x Raspberry Pi 3B+ or 4 (any)
-* 1x Micro SD Card (>16GB)
-* 1x Camera Ribbon Cable 15cm
-* 1x Ringlight
-* 1x Camera Module IMX519 (alternatively Pi Camera V2 or V1.3) or DSLR camera
+##### Fasteners:
+
+* 16 x M3x8 Screws
+* 2 x M3x12 Screws
 * 2x M2x6 Nylon Screw
 * 2x M2x6 Nylon Standoff
 * 2x M2 Nuts
 * (2x M2x12 Nylon Screw if you use the Pi Camera module)
 
-3d printed parts:
+##### Motors: 
 
-TODO
+* 1x Nema 17 (>40Ncm)
+* 1x Nema 17 (>13Ncm)
 
-### 3D Printing
-Get the printable .stl (and design) files
-TODO
+##### Electronics: 
+* 1x OpenScan Pi Shield
+* 1x OpenScan Ringlight PCB
+* 1x Raspberry Pi 3B+ or 4 (any)
+* 1x Micro SD Card (>16GB)
+* 1x Camera Ribbon Cable 15cm (unless using DSLR camera)
+* 1x Camera Module IMX519 (alternatively Pi Camera V2 or V1.3) or DSLR camera
 
+##### 3d printed parts:
+
+You'll need to download and print a few models from the [up-to-date github project](https://github.com/OpenScan-org/OpenScan-Design/tree/main/OS-Classic/V1):
+ - 1x `Pi Shield_RPi_with_Ringlight_and_Network+USB.stl`
+ - 1x `Stand1_Nema_17.stl`
+ - 1x `Gear_-_Small_v2.stl`
+ 
 ## Assembly
 
 ### Control module
